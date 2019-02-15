@@ -1,0 +1,22 @@
+.pad_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.pad_btn {
+    padding: 10px;
+    min-width: 40px;
+    margin: 10px 13px 13px 10px;
+    box-shadow: 3px 3px;
+}
+
+.pad_btn:active{
+    position: relative;
+    top: 1px;
+    left: 1px;
+    box-shadow: 2px 2px;
+    margin: 11px 12px 12px 11px;
+}
